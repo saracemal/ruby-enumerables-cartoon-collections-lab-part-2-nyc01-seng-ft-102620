@@ -15,13 +15,13 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? do |element|
-    element > 4
+    element >= 4
 end
 end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   
-  planeteer_calls
+  planeteer_calls.find { |element| element.
   
 end
