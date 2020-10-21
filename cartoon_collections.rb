@@ -19,6 +19,7 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls do |element|
     if element > 4
   end
+  element
 end
 
 def find_valid_calls(planeteer_calls)
